@@ -17,5 +17,5 @@ echo -e "Package: *\nPin: origin nginx.org\nPin: release o=nginx\nPin-Priority: 
 sudo apt update
 sudo apt install nginx -y
 
-rm /home/nginx_stable.sh
+rm /home/onclicknginx -rf
 
